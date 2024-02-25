@@ -1,0 +1,47 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height:100vh;
+    flex-direction: row;
+    gap: 40px;
+    background: url(../ACE/ro.webp);
+}
+a{
+    position: relative;
+    background: #444;
+    color: rgb(0, 249, 166);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+    font-weight: 400;
+    padding: 10px 30px;
+    transition: 0.5s;
+}
+a:hover{
+    letter-spacing: 0.25em;
+    background: var(--clr);
+    box-shadow: 0 0 35px var(--clr);
+}
+a::before{
+    content: ' ';
+    position: absolute;
+    inset: 2px;
+    background: #63646a;
+
+}
+a.span{
+    position: relative;
+    z-index: i;
+}
+
+
+url(login)
