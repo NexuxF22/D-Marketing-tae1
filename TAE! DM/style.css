@@ -4,7 +4,7 @@
    font-family: century;
 }
 header{
-   background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../ACE/ro.webp);
+   background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(ro.webp);
    height: 100vh;
    background-size: cover;
    background-position: center;
